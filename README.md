@@ -3,6 +3,8 @@ This repository contains the solution for the challenge given by Unsloth.ai.
 
 ## 1. Challenge A :- Convert nf4 to Triton. 
 
+**https://colab.research.google.com/drive/1XjeqEKWHxM0C4d2JCeX2lRqu1luxHcfK?usp=sharing**
+
 ## Challenge Objective
 
 **Goal:**  
@@ -33,8 +35,9 @@ Implement a single-kernel dequantization function for nf4–quantized tensors (c
 
 ## 2. Challenge B :-  Make QLoRA work with FSDP2 
 
-## Our Approach
+**https://www.kaggle.com/code/kaustubhupadhyay2503/challegeb-un**
 
+## Our Approach
 
 ## Environment and Setup
 - **Clean Runtime:**  
@@ -71,6 +74,8 @@ Implement a single-kernel dequantization function for nf4–quantized tensors (c
   Added functionality to recursively search for submodules containing LoRA adapter parameters (e.g. attributes like `lora_A` or `lora_B`) and compile them using `torch.compile()` to further optimize the trainable components.
 
 ## 3. Challenge C :- Make torch.compile work without graph breaks for QLoRA 
+
+**https://colab.research.google.com/drive/1i4hcwbvJ4VOxZ7F--zlCTtx2Wj18TUDt?usp=sharing**
 
 ## Our Approach
 
